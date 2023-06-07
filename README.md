@@ -10,5 +10,6 @@ Several Jupyter Notebooks have been provided:
 
 2. **missing_data_particle_filter**: Simulates the loss of road sensor data for a robotic car due to snow. Extends a regular Particle Filter with data augmentation to determine the car's location.
 
-3. **dynamic_value_iteration**: Updates the optimized policy to reach a goal when the robotic car discovers addition information such as a hole in the road. Uses Value Iteration Planning.
+3. **dynamic_value_iteration**: Updates the optimized policy to reach a goal when the robotic car discovers addition information such as a hole in the road. Uses Markov Decision Process (MDP) Value Iteration Planning.
 
+4. **pid_racer**: Provides an experimental template which eliminates the need for the robotic car to perform localization while allowing it to race around a circular track under a PID controller.
