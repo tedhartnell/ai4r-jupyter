@@ -1,8 +1,8 @@
 # Artificial Intelligence for Robots (AI4R)
 
-Jupyter Notebooks for robotic kit cars that explore the algorithms used in self-driving vehicles.
+Jupyter Notebooks for robotic car kits that explore the algorithms used in self-driving vehicles.
 
-These notebooks are generally self-contained and can run without custom robotic kit car hardware. But they have been designed for porting over to robotic kit cars and run real-world experiments.
+These notebooks are generally self-contained and can run without custom robotic car kit hardware. But they have been designed for porting over to robotic car kits and run real-world experiments.
 
 Several Jupyter Notebooks have been provided:
 
@@ -13,3 +13,5 @@ Several Jupyter Notebooks have been provided:
 3. **dynamic_value_iteration**: Updates the optimized policy to reach a goal when the robotic car discovers addition information such as a hole in the road. Uses Markov Decision Process (MDP) Value Iteration Planning.
 
 4. **pid_racer**: Provides an experimental template which eliminates the need for the robotic car to perform localization while allowing it to race around a circular track under a PID controller.
+
+5. **slam_map**: Offers a very simple experimental template for regular robotic car kits that allows a robot to simultaneously localize its position while it maps a 1-dimensional environment.
